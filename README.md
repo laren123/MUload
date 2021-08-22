@@ -1,9 +1,22 @@
-#Testing
-11111111111first line
-## sub heading
-sub line
- 
-This file have been updated......
-738838838383memkdkxkzkzkzkz
+#Cookie Stealer Server
 
-rfkrfrkfoprefkrewpofkerpfkrepfkreopfkrepf
+Fully written in Python.
+Tested in GNU/LINUX.
+
+Creates a Listening host and port forward using ngrok.
+
+##Requirment
+
++ python3
++ ngrok
++ Linux Desktop
++ Internet
+
+##Imports
+
++ os
++ socket
++ colorama
++ sys
++ time
+
