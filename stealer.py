@@ -5,12 +5,12 @@ import sys
 import time
 
 host='localhost'
-port=8000
+port=8577
 buffer=3000
 
 def ngrok():
 	system('killall -2 ngrok > /dev/null')
-	system('./ngrok http {} > /dev/null &'.format(8000))
+	system('./ngrok http {} > /dev/null &'.format(port))
 	time.sleep(7)
 	system('curl -s -N http://127.0.0.1:4040/api/tunnels | grep "https://[0-9a-z]*\.ngrok.io" -oh > link.url')
 	urlFile = open('link.url', 'r')
