@@ -1,18 +1,18 @@
-#Cookie Stealer Server
+# Cookie Stealer Server
 
 Fully written in Python.
 Tested in GNU/LINUX.
 
 Creates a Listening host and port forward using ngrok.
 
-##Requirment
+## Requirment
 
 + python3
 + ngrok
 + Linux Desktop
 + Internet
 
-##Imports
+## Imports
 
 + os
 + socket
