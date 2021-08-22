@@ -1,5 +1,5 @@
 from os import system
-import socket
+import socket      #imports
 from colorama import Fore
 import sys
 import time
