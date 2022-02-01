@@ -1,5 +1,5 @@
 ## Cookie Stealer Server
-##
+## Python3 
 Fully written in Python.
 Tested in GNU/LINUX.
 
